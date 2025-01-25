@@ -46,6 +46,13 @@ class WeatherFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.refreshBTN.setOnClickListener {
+            checkPermissionAndGetWeather()
+        }
+    }
+
     override fun onResume() {
         super.onResume()
         Log.d("VV", "onResume")
