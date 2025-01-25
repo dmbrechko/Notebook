@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/person"
+        android:icon="@drawable/ic_person_24"
+        android:title="@string/person" />
+
+    <item
+        android:id="@+id/notes"
+        android:icon="@drawable/ic_notes_24"
+        android:title="@string/notes" />
+
+    <item
+        android:id="@+id/weather"
+        android:icon="@drawable/ic_weather_24"
+        android:title="@string/weather" />
+
+</menu>
